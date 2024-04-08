@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $navLinks = config("db.navLinks");
+
+    // dd($navLinks);
+
+    return view('home', compact('navLinks'));
 })->name('home');
