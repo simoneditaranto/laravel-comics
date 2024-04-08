@@ -47,9 +47,11 @@ main{
 
         .comics-cards{
             .comic-card{
-
+                
                 width: calc(100% / 6 - 25px / 6 * 5);
-            
+
+                text-decoration: none;
+
                 .comic-img {
             
                     margin-bottom: 10px;

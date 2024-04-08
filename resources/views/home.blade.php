@@ -13,12 +13,12 @@
             <div class="comics-cards">
 
                 @foreach($comics as $comicItem)
-                <div class="comic-card">
+                <a href="comicsDescription" class="comic-card">
                     <div class="comic-img">
                         <img src="{{$comicItem['thumb']}}" alt="">
                     </div>
                     <span>{{ $comicItem['series'] }}</span>
-                </div>
+                </a>
                 @endforeach
 
             </div>
@@ -33,8 +33,19 @@
 
     <section class="icons">
 
-        <div class="container">
-            testo
+        <div class="cards container">
+            
+            @foreach($iconLinks as $icon)
+                <div class="card-item">
+                    <div class="card-img">
+                        <img src="{{Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="">
+                    </div>
+                    <div class="icon-text">
+                        {{$icon['icon-title']}}
+                    </div>
+                </div>
+            @endforeach
+
         </div>
 
     </section>

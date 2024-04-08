@@ -3,6 +3,31 @@
 .icons{
     background-color: $primaryColor;
     .container{
-        
+        display: flex;
+        justify-content: space-between;
+
+        padding: 30px 0;
+
+        .card-item{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .card-img{
+                width: 100px;
+                height: 100%;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            .icon-text{
+                color: white;
+                
+                text-transform: uppercase;
+            }
+
+        }
     }
 }

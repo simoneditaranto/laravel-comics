@@ -8,6 +8,76 @@ return [
        
     ],
 
+    'iconLinks' => [
+        [
+            "icon-logo" =>  'buy-comics-digital-comics.png',
+            "icon-title" => 'digital comics',
+        ],
+        [
+            "icon-logo" => 'buy-comics-merchandise.png',
+            "icon-title" => 'dc merchandise'
+        ],
+        [
+            "icon-logo" => 'buy-comics-subscriptions.png',
+            "icon-title" => 'subscription'
+        ],
+        [
+            "icon-logo" => 'buy-dc-power-visa.svg',
+            "icon-title" => 'comic shop locator'
+        ],
+    ],
+
+    'footerLinks' => [
+            [
+                'title' => 'dc comics',
+                'links' => [
+                    'Characters',
+                    'Comics',
+                    'Movies',
+                    'TV',
+                    'Games',
+                    'Videos',
+                    'News'
+                ],
+            ],
+
+            [
+                'title' => 'shop',
+                'links' => [
+                    'Shop DC',
+                    'Shop DC Collectibles',
+                ]
+            ],
+
+            [
+                'title' => 'dc',
+                'links' => [
+                    'Terms Of Use',
+                    'Privacy policy (new)',
+                    'Terms Of Use',
+                    'Privacy policy',
+                    'Terms Of Use',
+                    'Privacy policy',
+                    'Terms Of Use',
+                    'Privacy policy',
+                    'Terms Of Use',
+                    'Privacy policy',
+                    'Terms Of Use',
+                ],
+            ],
+
+            [
+                'title' => 'sites',
+                'links' => [
+                    'DC',
+                    'MAD Magazine',
+                    'DC',
+                    'MAD Magazine',
+                    'DC',
+                ],
+            ],
+    ],
+
     'comics' => [
     [
         "title" => "Action Comics #1000: The Deluxe Edition",
