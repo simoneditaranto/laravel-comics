@@ -11,6 +11,8 @@
     
     @include('partials/nav')
 
+    @include('partials/jumbo')
+    
     @yield('content')
     
 </body>
