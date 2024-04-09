@@ -1,0 +1,26 @@
+#item-icons{
+    border-top: 1px solid #AA9F9F;
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+
+        .card-icon{
+            padding: 10px;
+
+            width: calc(100% / 4);
+
+            border-right: 1px solid #AA9F9F;
+            border-left: 1px solid #AA9F9F;
+
+            h3{
+                font-size: 1em;
+
+                text-transform: uppercase;
+
+                color: #AA9F9F;
+            }
+        }
+    }
+}
