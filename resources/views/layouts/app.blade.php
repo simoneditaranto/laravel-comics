@@ -14,6 +14,10 @@
     @include('partials/jumbo')
     
     @yield('content')
+
+    @include('partials/linksSection')
+
+    @include('partials/footer')
     
 </body>
 </html>

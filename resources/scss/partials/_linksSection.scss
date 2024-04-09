@@ -1,0 +1,42 @@
+@use './variables' as *;
+
+#link-section{
+    // background-image: url("{{Vite::asset('resources/img/footer-bg.jpg')}}");
+    background-color: black;
+
+    .container{
+        padding: 0;
+
+        .useful-links{
+            display: flex;
+
+            ul{
+                list-style-type: none;
+
+                .title-link{
+                    font-size: 1.5em;
+                    font-weight: bold;
+
+                    text-transform: uppercase;
+
+                    color: white;
+                }
+
+                li{
+                    color: rgb(99, 99, 99);
+                }
+            }
+        }
+
+        p{
+            margin: 0;
+
+            color: rgb(99, 99, 99);
+            
+            span{
+                color: $primaryColor;
+            }
+        }
+    }
+
+}
