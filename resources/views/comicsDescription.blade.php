@@ -1,7 +1,20 @@
 @extends('layouts/app')
 
 @section('content')
-<div class="container">
-    <h1>Titolo</h1>
-</div>
+
+<section id="comic-item">
+    
+    <div class="comic-post">
+
+        <div class="container">
+            <div class="comic-image">
+                <img src="https://www.coverbrowser.com/image/action-comics/1-1.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
 @endsection
