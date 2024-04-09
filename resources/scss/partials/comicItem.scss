@@ -1,0 +1,67 @@
+#comic-item{
+
+    .container{
+        display: flex;
+        gap: 30px;
+
+        .description{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            h2{
+                text-transform: uppercase;
+
+                color: #084460;
+            }
+
+            .price{
+                display: flex;
+                justify-content: space-between;
+
+                padding: 10px;
+
+                background-color: #55BA59;
+
+                .number-price{
+
+                    .from{
+                        color: rgba(255, 255, 255, 0.7);
+                    }
+
+                    .number{
+                        color: white;
+                    }
+                }
+
+                .is-avaiable{
+
+                    .avaiable{
+                        padding-right: 10px;
+
+                        border-right: 1px solid black;
+
+                        text-transform: uppercase;
+
+                        color: rgba(255, 255, 255, 0.7);
+                    }
+
+                    .check{
+                        padding-left: 8px;
+
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .apply-now{
+
+            h2{
+                text-align: end;
+                text-transform: uppercase;
+            }
+            
+        }
+    }
+}

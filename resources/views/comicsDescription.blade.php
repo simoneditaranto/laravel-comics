@@ -14,6 +14,10 @@
 
     </div>
 
+    @include('partials/comicItem')
+
+    @include('partials/comicItemTable')
+
 </section>
 
 

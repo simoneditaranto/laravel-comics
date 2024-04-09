@@ -1,0 +1,40 @@
+@use './variables' as *;
+
+#comic-tables {
+
+    background-color: #F6F6F6;
+
+    .container{
+        padding-top: 40px;
+
+        h2{
+            color: $secondaryColor;
+            font-weight: bold;
+        }
+
+        // table{
+        //     background-color: #F6F6F6;
+        // }
+
+        th{
+            color: $secondaryColor;
+            font-weight: 500;
+        }
+
+        td{
+            color: #00A9D9;
+        }
+
+        .price, .date{
+            color: $secondaryColor;
+        }
+        
+        .talent{
+            width: 50%;
+        }
+
+        .specs{
+            width: 50%;
+        }
+    }
+}
